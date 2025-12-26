@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import ProtectedRoute from "./ProtectedRoute.jsx";
+import Signin from "./Pages/Signin";
 import Signup from "./Pages/Signup";
 import Home from "./Pages/Home";
 import EditBlog from "./Pages/EditBlog";
