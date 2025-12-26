@@ -2,21 +2,24 @@ import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import ProtectedRoute from "./ProtectedRoute";
 
-import Signin from "./pages/Signin";
-import Signup from "./pages/Signup";
-import Home from "./pages/Home";
-import CreateBlog from "./pages/CreateBlog";
-import BlogDetails from "./pages/BlogDetails";
-import EditBlog from "./pages/EditBlog";
-import DeleteBlog from "./pages/DeleteBlog";
-import Profile from "./pages/Profile";
-import MyBlogs from "./pages/MyBlogs";
+// PAGES (lowercase folder name)
+import Signin from "./Pages/Signin";
+import Signup from "./Pages/Signup";
+import Home from "./Pages/Home";
+import CreateBlog from "./Pages/CreateBlog";
+import BlogDetails from "./Pages/BlogDetails";
+import EditBlog from "./Pages/EditBlog";
+import DeleteBlog from "./Pages/DeleteBlog";
+import Profile from "./Pages/Profile";
+import MyBlogs from "./Pages/MyBlogs";
+
 
 const App = () => {
   return (
     <Routes>
 
       <Route path="/" element={<Navigate to="/signin" />} />
+
       <Route path="/signin" element={<Signin />} />
       <Route path="/signup" element={<Signup />} />
 
