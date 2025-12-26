@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import API from "../api/axios";
 import { useNavigate, Link } from "react-router-dom";
-import "../styles/signin.css";
+import "../styles/Signin.css";
 
 const Signin = () => {
   const navigate = useNavigate();
