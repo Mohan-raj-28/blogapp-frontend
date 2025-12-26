@@ -1,0 +1,36 @@
+.home-container {
+  padding: 40px;
+}
+
+.home-container h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.blog-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 7px rgba(0,0,0,0.1);
+}
+
+.blog-card h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.blog-card p {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #555;
+}
+
+.blog-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}

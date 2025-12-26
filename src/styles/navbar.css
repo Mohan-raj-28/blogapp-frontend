@@ -1,0 +1,64 @@
+/* Base navbar styling */
+.navbar {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.navbar .btn {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light mode defaults */
+.navbar-light {
+  background-color: #ffffff !important;
+  color: #000 !important;
+}
+
+.navbar-light .navbar-brand {
+  color: #000 !important;
+}
+
+.navbar-light .btn-outline-dark {
+  border-color: #000 !important;
+  color: #000 !important;
+}
+
+/* ------------------------- */
+/* 🌙 DARK MODE NAVBAR        */
+/* ------------------------- */
+
+.dark-mode .navbar {
+  background-color: #1c1c1c !important;
+  color: #fff !important;
+}
+
+.dark-mode .navbar-brand {
+  color: #fff !important;
+}
+
+.dark-mode .btn-dark {
+  background-color: #333 !important;
+  border-color: #555 !important;
+}
+
+.dark-mode .btn-outline-dark {
+  border-color: #fff !important;
+  color: #fff !important;
+}
+
+.dark-mode .btn-outline-dark:hover {
+  background-color: #fff !important;
+  color: #121212 !important;
+}
+
+.dark-mode .btn-danger {
+  background-color: #bb2d3b !important;
+}
+/* For button hover smoothness */
+.navbar .btn:hover {
+  opacity: 0.9;
+}
