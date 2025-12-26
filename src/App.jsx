@@ -1,14 +1,11 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-import ProtectedRoute from "./ProtectedRoute";
-
-// PAGES (lowercase folder name)
-import Signin from "./Pages/Signin";
+import ProtectedRoute from "./ProtectedRoute.jsx";
 import Signup from "./Pages/Signup";
 import Home from "./Pages/Home";
-import CreateBlog from "./Pages/CreateBlog";
-import BlogDetails from "./Pages/BlogDetails";
 import EditBlog from "./Pages/EditBlog";
+import BlogDetails from "./Pages/BlogDetails";
+import CreateBlog from "./Pages/CreateBlog";
 import DeleteBlog from "./Pages/DeleteBlog";
 import Profile from "./Pages/Profile";
 import MyBlogs from "./Pages/MyBlogs";
@@ -18,7 +15,7 @@ const App = () => {
   return (
     <Routes>
 
-      <Route path="/" element={<Navigate to="/signin" />} />
+      <Route path="/" element={<Navigate to="/Signin" />} />
 
       <Route path="/signin" element={<Signin />} />
       <Route path="/signup" element={<Signup />} />
